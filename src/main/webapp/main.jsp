@@ -15,13 +15,13 @@
 </head>
 <body>
 	<div>
-		<!-- 메인 페이지 ${sessionScope.user.insid}-->
+		<!-- 메인 페이지-->
 		<div class="text">
 			<div class="first">
-				{id} 님의 <strong>졸음운전 알림 횟수</strong>는
+				캠 밖으로 나가거나 가려지는 경우,
 			</div>
 			<div class="second">
-			<strong>{번}</strong> 입니다.
+			인식이 <strong>불가능</strong>합니다.
 			</div>
 		</div>
 
@@ -64,7 +64,7 @@
 				</div>
 
 				<div class="profile2">운전자</div>
-				<div class="profile3">{ID} 님</div>
+				<div class="profile3"> ${sessionScope.user.insid} 님</div>
 
 				<div class="driver">
 					<button class="btn" onclick="location.href='http://127.0.0.1:8000/';">
